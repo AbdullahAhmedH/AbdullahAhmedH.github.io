@@ -4,7 +4,7 @@ const { frontmatter } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
     <div class="center" style="padding-top: 30px;">
-        <img class="pro-img" height="281" src={frontmatter.image.url} alt={frontmatter.image.alt} />
+        <img class="pro-img" height="281" src={frontmatter.giffy.url} alt={frontmatter.giffy.alt} />
     </div>
     <h2>{frontmatter.title}</h2>
     <slot />

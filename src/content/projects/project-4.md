@@ -4,6 +4,9 @@ description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, co
 image:
     url: '/GitHub.webp'
     alt: 'GitHub wallpaper'
+giffy:
+    url: ''
+    alt: 'gif'
 worksImage1:
     url: '/image-1.webp'
     alt: 'first image of your project.'

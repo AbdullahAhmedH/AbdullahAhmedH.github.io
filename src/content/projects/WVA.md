@@ -3,7 +3,10 @@ title: 'Web Vulnerability Scanner'
 description: 'A simple, Python-based application designed to scan websites for common web vulnerabilities.'
 image:
     url: '/proj1/url.png'
-    alt: 'GitHub wallpaper'
+    alt: 'WVA URL page'
+giffy:
+    url: '/proj1/WVAgif.gif'
+    alt: 'WVA gif'
 worksImage1:
     url: '/proj1/loading.png'
     alt: 'first image of your project.'
