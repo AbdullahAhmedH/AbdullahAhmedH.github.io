@@ -26,11 +26,18 @@ and billing.
 
 ## Features
 
-- Notifications Management
-- Doctors Management
-- Patients Management 
-- Suppliers Management
-- Medicines Management 
-- Batches Management 
-- Prescriptions Management 
-- Billing 
+Notifications Management
+
+Doctors Management
+
+Patients Management 
+
+Suppliers Management
+
+Medicines Management 
+
+Batches Management 
+
+Prescriptions Management 
+
+Billing 
