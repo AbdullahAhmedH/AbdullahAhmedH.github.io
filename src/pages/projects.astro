@@ -1,35 +1,44 @@
 ---
 import { getCollection } from "astro:content";
-import Card from '../components/Card.astro';
-import Layout from '../layouts/Layout.astro';
+import Card from "../components/Card.astro";
+import Layout from "../layouts/Layout.astro";
 const allProjects = await getCollection("projects");
 const pageTitle = "Portfolio | Projects";
 ---
+
 <Layout pageTitle={pageTitle}>
     <style>
-    :root {
-        --background: #2e3b3a;
-        --background-light: #e0f2e9;
-        --button: #7ab8a4;
-        --text: #e0f2e9;
-        --text-light: #2e3b3a;
-        --text-link: #88c8b2;
-        --underline: #527a6e;
-        --header: 'Indie Flower', cursive;
-        --body: 'Josefin Sans', sans-serif;
-    }
+        :root {
+            --background: #2e3b3a !important;
+            --background-light: #e0f2e9 !important;
+            --button: #7ab8a4 !important;
+            --text: #e0f2e9 !important;
+            --text-light: #2e3b3a !important;
+            --text-link: #88c8b2 !important;
+            --underline: #527a6e !important;
+            --header: "Indie Flower", cursive !important;
+            --body: "Josefin Sans", sans-serif !important;
+        }
     </style>
     <div class="gif">
-        <img width="300" height="259" alt="RaccoonLaptopGif" src="/laptop.webp"/>
+        <img
+            width="300"
+            height="259"
+            alt="RaccoonLaptopGif"
+            src="/laptop.webp"
+        />
     </div>
     <h2>Projects</h2>
     <ul role="list" class="link-card-grid">
-        {allProjects.map((card) => <Card 
-            url={`/projects/${card.slug}/`} 
-            image={card.data.image.url} 
-            title={card.data.title} 
-            body={card.data.description}
-        />)}
+        {
+            allProjects.map((card) => (
+                <Card
+                    url={`/projects/${card.slug}/`}
+                    image={card.data.image.url}
+                    title={card.data.title}
+                    body={card.data.description}
+                />
+            ))
+        }
     </ul>
 </Layout>
-
