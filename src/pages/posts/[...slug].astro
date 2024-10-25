@@ -16,5 +16,18 @@ const { Content } = await entry.render();
 ---
 
 <MarkdownPostsLayout frontmatter={entry.data}>
+    <style>
+        :root {
+            --background: #39293d;
+            --background-light: #f5e6f0;
+            --button: #9e7a9e;
+            --text: #f5e6f0;
+            --text-light: #39293d;
+            --text-link: #b38cb6;
+            --underline: #704e72;
+            --header: "Indie Flower", cursive;
+            --body: "Josefin Sans", sans-serif;
+        }
+    </style>
     <Content />
 </MarkdownPostsLayout>
