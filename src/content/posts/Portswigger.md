@@ -9,3 +9,12 @@ image:
 
 This is going to be a page that contains my portswigger progress and a more detailed version of all that I understand from it.
 
+### Server-Side Vulnerabilities 
+<span class="badge">APPRENTICE</span>
+
+<a href="/posts/portswigger/1">
+    <button class="btn"> Path traversal </button>
+</a>&nbsp;&nbsp;&nbsp;
+<a href="/posts/portswigger/2">
+    <button class="btn"> Access control </button>
+</a>
