@@ -14,7 +14,10 @@ This is going to be a page that contains my portswigger progress and a more deta
 
 <a href="/posts/portswigger/1">
     <button class="btn"> Path traversal </button>
-</a>&nbsp;&nbsp;&nbsp;
+</a> 
 <a href="/posts/portswigger/2">
     <button class="btn"> Access control </button>
+</a>
+<a href="/posts/portswigger/3">
+    <button class="btn"> Authentication </button>
 </a>
