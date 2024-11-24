@@ -60,6 +60,18 @@ small, li {
     font-family: var(--body); 
 }
 
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.button-container a {
+    text-align: center;
+    text-decoration: none;
+}
+
 /* Navigation Bar */
 .navbar {
     display: grid;
