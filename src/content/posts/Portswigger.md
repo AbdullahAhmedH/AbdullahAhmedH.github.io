@@ -10,7 +10,7 @@ image:
 This is going to be a page that contains my portswigger progress and a more detailed version of all that I understand from it.
 
 ### Server-Side Vulnerabilities 
-<span class="badge">APPRENTICE</span>
+<span class="badge" style="background-color: #32CD32;">APPRENTICE</span>
 
 <div class="button-container">
     <a href="/posts/portswigger/1">
@@ -35,3 +35,24 @@ This is going to be a page that contains my portswigger progress and a more deta
         <button class="btn">SQL injection</button>
     </a>
 </div>
+<br>
+<br>
+
+### Path Traversal 
+<span class="badge" style="background-color: blue;">PRACTITIONER</span>
+
+<div class="button-container">
+    <a href="/posts/portswigger/1">
+        <button class="btn">What is path traversal</button>
+    </a>
+    <a href="/posts/portswigger/1">
+        <button class="btn">Reading arbitrary files via path traversal</button>
+    </a>
+    <a href="/posts/portswigger/1">
+        <button class="btn">Common obstacles to exploiting path traversal vulnerabilities</button>
+    </a>
+    <a href="/posts/portswigger/1">
+        <button class="btn">How to prevent a path traversal attack</button>
+    </a>
+</div>
+
