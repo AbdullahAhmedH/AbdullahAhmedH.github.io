@@ -42,16 +42,16 @@ This is going to be a page that contains my portswigger progress and a more deta
 <span class="badge" style="background-color: blue;">PRACTITIONER</span>
 
 <div class="button-container">
-    <a href="/posts/portswigger/1">
+    <a href="/posts/portswigger/8">
         <button class="btn">What is path traversal</button>
     </a>
-    <a href="/posts/portswigger/1">
+    <a href="/posts/portswigger/9">
         <button class="btn">Reading arbitrary files via path traversal</button>
     </a>
-    <a href="/posts/portswigger/1">
+    <a href="/posts/portswigger/10">
         <button class="btn">Common obstacles to exploiting path traversal vulnerabilities</button>
     </a>
-    <a href="/posts/portswigger/1">
+    <a href="/posts/portswigger/11">
         <button class="btn">How to prevent a path traversal attack</button>
     </a>
 </div>
