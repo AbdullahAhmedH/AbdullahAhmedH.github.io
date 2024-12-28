@@ -7,7 +7,7 @@
     --text-light: #1e1e2e; 
     --text-link: #78c2ad;
     --underline: #375a7f;
-    --header: 'Indie Flower', cursive;
+    --header: 'Maven Pro', sans-serif;
     --body: 'Josefin Sans', sans-serif; 
 }
 
@@ -81,7 +81,7 @@ small, li {
 
 .navbar__title {
     font-family: var(--header);
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     padding-top: 10px;
 }
 
