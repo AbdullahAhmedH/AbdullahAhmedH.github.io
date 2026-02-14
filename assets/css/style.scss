@@ -1,7 +1,11 @@
 ---
 ---
-
+@import "minima/skins/dark";
 @import "minima";
+
+html {
+  background-color: #0d1117;
+}
 
 body {
   background-color: #0d1117;
