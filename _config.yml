@@ -15,3 +15,6 @@ sass:
 
 minima:
   skin: dark
+
+feed:
+  enabled: false
