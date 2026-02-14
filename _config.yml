@@ -12,9 +12,3 @@ collections:
 
 sass:
   style: compressed
-
-minima:
-  skin: dark
-
-feed:
-  enabled: false
