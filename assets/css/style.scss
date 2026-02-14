@@ -1,16 +1,11 @@
 ---
 ---
-@import "minima/skins/dark";
-@import "minima";
 
-html {
-  background-color: #0d1117;
-}
+@import "minima";
 
 body {
   background-color: #0d1117;
   color: #c9d1d9;
-  font-family: "Fira Code", monospace;
 }
 
 .site-header {
@@ -18,12 +13,25 @@ body {
   border-bottom: 1px solid #30363d;
 }
 
+.site-title,
+.site-title:visited {
+  color: #ffffff;
+}
+
 .site-nav .page-link {
   color: #c9d1d9;
 }
 
+.post-link {
+  color: #58a6ff;
+}
+
 a {
   color: #58a6ff;
+}
+
+.page-content {
+  background-color: #0d1117;
 }
 
 .card-grid {
