@@ -3,8 +3,8 @@ layout: home
 title: Home
 ---
 
-Hi, I'm Your Name.
+Hi, I'm Abdullah
 
-I'm a [your role — developer / designer / student / etc].
+I'm an aspiring SOC analyst, currently a student.
 
 Welcome to my corner of the internet.
