@@ -1,0 +1,138 @@
+---
+---
+@import "minima";
+
+/*
+  ========================================
+  Premium Dark Minimalist Theme Overrides
+  ========================================
+*/
+
+// Modern typography
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #0b0f19; // Deep rich dark background
+  color: #e2e8f0; // Soft white text for readability
+  line-height: 1.6;
+}
+
+// Accent Colors
+$accent-color: #60a5fa; // Soft modern blue
+$accent-hover: #3b82f6; // Slightly deeper blue for hover
+$border-color: #1e293b; // Subtle borders
+$card-bg: #111827; // Slightly lighter dark background for cards
+
+a {
+  color: $accent-color;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: $accent-hover;
+    text-decoration: underline;
+  }
+}
+
+// Typography adjustments
+h1, h2, h3, h4, h5, h6 {
+  color: #f8fafc;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+// Header & Navigation
+.site-header {
+  background-color: rgba(11, 15, 25, 0.8);
+  border-bottom: 1px solid $border-color;
+  backdrop-filter: blur(8px); // Glassmorphism effect
+}
+
+.site-title {
+  color: #f8fafc !important;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.site-nav .page-link {
+  color: #cbd5e1;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    color: #f8fafc;
+  }
+}
+
+// Page Content Background
+.page-content {
+  background-color: transparent;
+}
+
+// Posts & Links
+.post-link {
+  color: #f8fafc;
+  font-size: 1.25rem;
+  font-weight: 500;
+  
+  &:hover {
+    color: $accent-color;
+    text-decoration: none;
+  }
+}
+
+.post-meta {
+  color: #94a3b8;
+}
+
+// High-end Project Cards Grid
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: $card-bg;
+  padding: 1.75rem;
+  border-radius: 12px;
+  border: 1px solid $border-color;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+              box-shadow 0.3s ease, border-color 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.5);
+    border-color: #334155;
+  }
+  
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    
+    a {
+      color: #f8fafc;
+      text-decoration: none;
+      
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+  
+  p {
+    color: #94a3b8;
+    margin-bottom: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}
+
+// Footer Minimalist Check
+.site-footer {
+  border-top: 1px solid $border-color;
+  color: #94a3b8;
+}
+
+// Add Inter font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
