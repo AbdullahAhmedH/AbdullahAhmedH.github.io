@@ -13,10 +13,8 @@ collections:
 sass:
   style: compressed
 
-minima:
-  social_links:
-    - { platform: github, user_url: "https://github.com/AbdullahAhmedH" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/abdullahahmedh/" }
-    - { platform: twitter, user_url: "https://x.com/abdullahahmed_h" }
+github_username: "AbdullahAhmedH"
+twitter_username: "abdullahahmed_h"
+linkedin_username: "abdullahahmedh"
 
 email: "abdullahahmedh@gmail.com"

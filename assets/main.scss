@@ -1,5 +1,5 @@
----
----
+--- 
+--- 
 @import "minima";
 
 /*
@@ -141,7 +141,12 @@ h6 {
 }
 
 // Hide the redundant site title in the footer
-.footer-col-1 .site-title {
+.footer-heading {
+  display: none;
+}
+
+// Hide the RSS subscribe link on the home page
+.rss-subscribe {
   display: none;
 }
 
